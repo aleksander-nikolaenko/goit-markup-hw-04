@@ -166,13 +166,17 @@ body .accent-text {
 }
 
 .contacts-icon {
+  display: inline-flex;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .header-contacts-item:not(:last-child) {
   margin-right: 50px;
 }
+
 .header-contacts-link {
+  display: block;
   color: inherit;
 }
 
