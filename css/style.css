@@ -109,23 +109,20 @@ body .accent-text {
 
 /*----------- HEADER ---------*/
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #ececec;
-  max-width: 1600px;
 }
 
 .header-content {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-right: 93px;
-
   color: #000000;
 }
 
@@ -144,8 +141,6 @@ body .accent-text {
 
 .header-link {
   display: block;
-  padding-bottom: 32px;
-  padding-top: 32px;
 
   color: #212121;
   font-weight: 500;
@@ -186,8 +181,8 @@ body .accent-text {
   padding-bottom: 200px;
 
   background-color: #c4c4c4;
-  background-image: url(../images/hero-bg.jpg),
-    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -195,7 +190,7 @@ body .accent-text {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1280px;
+  max-width: 1600px;
 }
 
 .hero-title {
@@ -293,7 +288,6 @@ body .accent-text {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--third-background-color);
-  max-width: 1600px;
 }
 
 .team-list {
@@ -323,6 +317,9 @@ body .accent-text {
 
   color: var(--title-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .team-list-descr {
@@ -498,7 +495,6 @@ body .accent-text {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--secondary-background-color);
-  max-width: 1600px;
 }
 .footer-container {
   display: flex;
